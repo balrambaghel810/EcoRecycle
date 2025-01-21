@@ -1,0 +1,99 @@
+/* Services.css */
+.services {
+  margin: 0;
+  padding: 0;
+}
+
+.services-section {
+  background-color: rgb(255, 255, 255); /* Green background */
+  color: rgb(29, 76, 108);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.services-description {
+  font-size: 18px;
+  color: rgb(138, 169, 176); /* Lighter grey-blue */
+  margin-bottom: 40px;
+}
+
+.upload-section {
+  margin-bottom: 30px;
+}
+
+.upload-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+  color: white;
+}
+
+.upload-input {
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.image-preview {
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  max-width: 300px;
+  max-height: 300px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.recyclable-status {
+  margin-bottom: 20px;
+}
+
+.recyclable-status p {
+  font-size: 18px;
+}
+
+.nearest-store {
+  background-color: rgb(29, 76, 108); /* Darker green background */
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 28px;
+  }
+
+  .services-description {
+    font-size: 16px;
+  }
+
+  .upload-label {
+    font-size: 16px;
+  }
+
+  .upload-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .recyclable-status p {
+    font-size: 16px;
+  }
+
+  .nearest-store {
+    font-size: 16px;
+  }
+}

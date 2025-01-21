@@ -1,0 +1,95 @@
+/* Contact.css */
+.contact {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  background-color: rgb(248, 248, 248); /* Green background */
+  color: rgb(29, 76, 108);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.success-message {
+  font-size: 18px;
+  color: rgb(138, 169, 176); /* Lighter grey-blue */
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(29, 76, 108); /* Darker green background for the form */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: rgb(138, 169, 176); /* Light grey-blue */
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: rgb(29, 145, 110); /* Green on hover */
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}

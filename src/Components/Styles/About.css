@@ -1,0 +1,74 @@
+/* About.css */
+.about {
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  background-color: rgb(244, 244, 244); /* Green background */
+  color: rgb(29, 76, 108);
+  padding: 50px 20px;
+}
+
+.about-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.info-item {
+  background-color: rgb(138, 169, 176); /* Light grey-blue */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.info-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.info-item ul li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .info-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,60 @@
+/* Home.css */
+.home {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background-color: rgb(255, 255, 255); /* Green background */
+  color: rgb(29, 76, 108);
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; Full viewport height */
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.hero-btn {
+  background-color: rgb(29, 76, 108); /* Darker green */
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: rgb(138, 169, 176); /* Lighter grey-blue */
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .hero-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}
